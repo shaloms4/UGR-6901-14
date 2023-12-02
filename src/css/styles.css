@@ -19,18 +19,18 @@ body{
     align-items: center; 
     justify-content: center;
 }
-ul {
+.drop ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
   
-  li {
+ .drop li {
     float: left;
   }
   
-  li a, .dropbtn {
+  .drop li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -38,7 +38,7 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover, .dropdown:hover .dropbtn {
+  .drop li a:hover, .dropdown:hover .dropbtn {
     background-color: #555;
   }
   
