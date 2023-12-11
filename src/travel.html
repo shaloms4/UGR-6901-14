@@ -3,29 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Travel</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive-css/responsive.css">
 </head>
 <body>
     <header>
-        <h2>"I love people who get excited about stars."</h2>
+        <nav class="nav--links">
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="aboutme.html">About</a></li>
+              <li><a href="education.html">Education</a></li>
+              <li><a href="hobby.html">Hobbies</a></li>
+              <li><a href="travel.html">Travel</a></li>
+            </ul>
+        </nav>
     </header>
     <div class="container">
-        <div class="international">
+        <div class="split--container">
+            <div class="international">
             <h2>International Travels</h2>
-            <div class="images">
-                <div class="image-item">
+            <div class="travel--images">
+                <div class="travel--images__item">
                     <p><b>Dubai</b></p>
                     <img src="images/dubai.webp" alt="Dubai">
                 </div> 
-                <div class="image-item">
-                    <p><b>Greek Islands</b></p>
-                    <img src="images/Greece.webp" alt="Greece">
-                </div>
-                <div class="image-item">
+                <div class="travel--images__item">
                     <p><b>Pyramids of Giza, Egypt</b></p>
                     <img src="images/pyramid.avif" alt="Egypt">
                 </div>
-                <div class="image-item">
+                <div class="travel--images__item">
                     <p><b>Santorini, Greece</b></p>
                     <img src="images/greece2.jpg" alt="Santorini">
                 </div>
@@ -33,43 +38,39 @@
         </div>
         <div class="domestic">
        <h2>Domestic Travels</h2>
-       <div class="image-item">
-        <p><b>Lalibela, Ethiopia</b></p>
-        <img src="images/lalibela.jpg" alt="Lalibela">
-        </div>
-        <div class="image-item">
+       <div class="travel--images__item">
+            <p><b>Sof-Omar caves, Ethiopia</b></p>
+            <img src="images/sofomar.jpg" alt="Sof-Omar caves">
+        </div> 
+        <div class="travel--images__item">
             <p><b>Fasiledes castle, Ethiopia</b></p>
             <img src="images/Fasiledes.jpg" alt="Fasiledes">
-            </div>
-        <div class="image-item">
-                <p><b>Sof-Omar caves, Ethiopia</b></p>
-                <img src="images/sofomar.jpg" alt="Sof-Omar caves">
-                </div>  
+        </div>
+        <div class="travel--images__item">
+            <p><b>Lalibela, Ethiopia</b></p>
+            <img src="images/lalibela.jpg" alt="Lalibela">
+        </div>
+        
+                
                 <p>I have visited a lot of historical and amazing places in Ethiopia.<br> click the button if you want to see Ethiopia travel guides.</p>
                 <a href="https://youtu.be/HwgnhdZBI-M?feature=shared" target="_blank">
                     <button>Watch Video</button>
                 </a>
-        </div>
+        
+       </div>
     </div>
+ </div>
     <footer>
-        <div class="social-icons">
-            <div class="icon">
+        <div class="contact--icons">
+            <a href="https://t.me/shalommih" target="_blank" title="Telegram">
                 <img src="images/telegram.png" alt="Telegram">
-            </div>
-            <div class="telegram-username">
-                <a href="https://t.me/shalommih" target="_blank">
-                    @shalommih
-                </a>
-            </div>
-            <div class="icon">
+            </a>
+            <a href="shalom12" target="_blank" title="Instagram">
                 <img src="images/instagram.png" alt="Instagram">
-            </div>
-            <div class="instagram-username">
-                <a href="shalom12" target="_blank">shalom12</a>
-            </div>
-            <div class="email">
-                Email: <a href="mailto:shalomhatamum@gmail.com">shalomhatamum@gmail.com</a>
-            </div>
+            </a>
+            <a href="mailto:shalomhatamum@gmail.com" title="Email">
+                <img src="images/email.png" alt="Email">
+            </a>
         </div>
     </footer>    
 </body>
