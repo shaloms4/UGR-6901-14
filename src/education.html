@@ -2,60 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Vertical Split Page</title>
-    
+    <title>Education</title>
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-    <header>
-        <h2>"I love people who get excited about stars."</h2>
-    </header>
-    <div class="container">
-        <div class="first-half">
-            <h2>EDUCATION</h2>
-              <div class="media-item">
-                <video width="500" height="400" controls poster="images/vidimage.png"> 
-                    <source src="videos/video.mp4" type="video/mp4">
-                </video>
-                <p><b>Astronaut Training</b><br>Chosen as a member of Artemis II moon mission astronauts.</p>
-              </div>
-              <div class="media-item">
-                <img src="images/grad.webp" alt="PGraduation">
-                <p>First Degree <b>Software Engineering</b></p>
-              </div>
-            <div class="media-item">
-                <img src="images/pilot.jpg" alt="Piloting">
-                <p>Piloting</p>
-            </div>
-        </div>
-        <div class="second-half">
-            <h2>SKILLS</h2>
-            <ul class="things-list">
-                <li>Advanced piloting Skills<br></li>
-                <li>Spacecrafts Systems Management<br></li>
-                <li>Medical Training For Space<br></li>
-                <li>Training In Space Station Operations<br></li>
-                <li>Playing Guitar<br></li>
-                <li>Team Collaboration<br></li>
-                <li>Coding<br></li>
-                <li>Astrophotography</li>
-                
-            </ul>
-        </div>
+  <header>
+    <div class="navigation--button">
+      <button class="menu-icon" onclick="toggleNav()">☰</button>
+    <nav class="nav--links">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="aboutme.html">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="hobby.html">Hobbies</a></li>
+        <li><a href="travel.html">Travel</a></li>
+      </ul>
+    </nav>
     </div>
-<footer>
-        <div class="social-icons">
-            <div class="icon">
-              <img src="images/telegram.png" alt="Telegram">
-            </div>
-            <div class="telegram-username">
-              <a href="https://t.me/shalommih" target="_blank">
-                @shalommih
-              </a>
-            </div>
-            <div class="email">
-              Email: <a href="mailto:shalomhatamum@gmail.com">shalomhatamum@gmail.com</a>
-            </div>
-          </div>
-</footer> 
+  </header>
+  <div id="progress-container">
+    <div id="progress-bar"></div>
+  </div>
+  <div class="container">
+    <h2>EDUCATION</h2>
+      <p><b>1. Software Engineering</b><br> First Degree</p>
+      <div class="slider--container">
+        <div class="slider--content">
+          
+          <div class="slide"><img src="images/Grad1.jpg" alt="Image 1"></div>
+          <div class="slide"><img src="images/grad2.jpg" alt="Image 2"></div>
+          <div class="slide"><img src="images/grad3.jpg" alt="Image 3"></div>
+      </div>
+        <div class="prev" onclick="changeSlide(-1)">❮</div>
+        <div class="next" onclick="changeSlide(1)">❯</div>
+      </div>
+    </div>
+    <div class="media--item">
+      <p><b>2. Astronaut Training</b><br> Chosen as a member of The Artemis II moon mission astronauts.</p>
+      <video id="fullscreenVideo" controls poster="images/vidpic.jpeg">
+        <source src="images/video.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="media--item">
+      <p><b>3. Piloting</b><br> morethan 1,000 hours of pilot-in-command time in jet aircraft.</p>
+      <img src="images/pilot.jpg" alt="Piloting">
+    </div>
+  </div>
+  <div class="skills">
+    <h2>SKILLS</h2>
+    <ul>
+      <li>Advanced piloting Skills</li>
+      <li>Spacecrafts Systems Management</li>
+      <li>Medical Training For Space</li>
+      <li>Training In Space Station Operations</li>
+      <li>Playing Guitar</li>
+      <li>Team Collaboration</li>
+      <li>Coding</li>
+      <li>Astrophotography</li>
+    </ul>
+  </div>
+  <script src="js/index.js"></script>
+  <footer>
+    <div class="contact--icons">
+      <a href="https://t.me/shalommih" target="_blank" title="Telegram">
+        <img src="images/telegram.png" alt="Telegram">
+      </a>
+      <a href="shalom12" target="_blank" title="Instagram">
+        <img src="images/instagram.png" alt="Instagram">
+      </a>
+      <a href="mailto:shalomhatamum@gmail.com" title="Email">
+        <img src="images/email.png" alt="Email">
+      </a>
+    </div>
+  </footer>
 </body>
 </html>

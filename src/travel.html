@@ -1,68 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>travel</title>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel</title>
+  <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
+<script src="js/index.js"></script>
     <header>
-    <h2>"I love people who get excited about stars."</h2>
-</header>
-    <div class="container">
-        <div class="half">
-            <h2>International Travel</h2>
-            <div class="images">
-                <div class="image-item">
-                    <img src="images/dubai.jpg" alt="Dubai">
-                    <div class="description">
-                        <p><b>Dubai</b> with it's modern architecture, luxury shopping, and vibrant nightlife.</p>
-                    </div>
-                </div>
-                <div class="image-item">
-                    <img src="images/paris.jpg" alt="Paris">
-                    <div class="description">
-                        <p><b>Paris</b> with it's iconic landmarks like the Eiffel Towe and it's rich history.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="half">
-            <h2>Domestic Travel</h2>
-            <div class="video-section">
-                <iframe width="560" height="315" src="videos/video1.mp4"></iframe>
-                <div class="description">
-                    <p>There are plenty of places too visit in Ethiopia.</p>
-                </div>
-            </div>
-            <ul class="things-list">
-                <li><b>Axum</b><br></li>
-                <li><b>Lalibela</b><br></li>
-                <li><b>Yetiya tkl dngayoch</b><br></li>
-                <li><b>ye Harer gnb</b></li>
+        <div class="navigation--button">
+            <button class="menu-icon" onclick="toggleNav()">☰</button>
+        <nav class="nav--links">
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="aboutme.html">About</a></li>
+              <li><a href="education.html">Education</a></li>
+              <li><a href="hobby.html">Hobbies</a></li>
+              <li><a href="travel.html">Travel</a></li>
             </ul>
+        </nav>
         </div>
+    </header>
+    <body>
+    <div class="container">
+    <div class="card--container">
+      <div class="card" id="card1">
+        <h3>International Travels</h3>
+        <div class="slider" id="slider1">
+          <div>
+            <img src="images/tajmahal.jpg" alt="Taj Mahal">
+            <p>Taj Mahal, India </p>
+          </div>
+          <div>
+            <img src="images/dubai1.jpg" alt="Dubai">
+            <p>Dubai</p>
+          </div>
+          <div>
+            <img src="images/paris.jpg" alt="Paris">
+            <p>Paris, France</p>
+          </div>
+        </div>
+      </div>
+      <div class="card" id="card2">
+        <h3>Domestic Travels</h3>
+        <div class="slider" id="slider2">
+        <div>
+            <img src="images/sofomar.jpg" alt="Sofomar">
+            <p>Sof Omar, Ethiopia</p>
+        </div>
+        <div>
+            <img src="images/lalibela1.jpg" alt="Lalibela">
+            <p>Lalibela, Ethiopia</p>
+          </div>
+          <div>
+            <img src="images/axum.jpg" alt="Axum">
+            <p>Axum, Ethiopia</p>
+          </div>
+        </div>
+      </div>
     </div>
-<footer>
-        <div class="social-icons">
-            <div class="icon">
-                <img src="images/telegram.png" alt="Telegram">
-            </div>
-            <div class="telegram-username">
-                <a href="https://t.me/shalommih" target="_blank">
-                    @shalommih
+    <p>I have visited a lot of historical and amazing places in Ethiopia.<br> click the button if you want to see Ethiopia travel guides.</p>
+                <a href="https://youtu.be/HwgnhdZBI-M?feature=shared" target="_blank">
+                    <button>Watch Video</button>
                 </a>
-            </div>
-            <div class="email">
-                Email: <a href="mailto:shalomhatamum@gmail.com">shalomhatamum@gmail.com</a>
-            </div>
+    </div>
+    <footer>
+        <div class="contact--icons">
+            <a href="https://t.me/shalommih" target="_blank" title="Telegram">
+                <img src="images/telegram.png" alt="Telegram">
+            </a>
+            <a href="shalom12" target="_blank" title="Instagram">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+            <a href="mailto:shalomhatamum@gmail.com" title="Email">
+                <img src="images/email.png" alt="Email">
+            </a>
         </div>
-</footer>    
+    </footer> 
 </body>
-</html> 
+</html>
     
- 
-  
-    
-       
-    
+
+
