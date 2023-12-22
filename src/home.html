@@ -1,65 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <title>portfolio</title>
-  <meta charset="utf-8">
-  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dist/output.css">
 </head>
 <body>
-<header>
-  <h2>"I love people who get excited about stars."</h2>
+  <header class="bg-green-900 p-2 text-green-500 text-center fixed top-0 w-full z-50 border-b border-gray-200">
+    <nav class="flex justify-end">
+        <ul class="flex">
+            <li class="mr-10">
+                <a href="home.html" class="no-underline hover:underline font-bold text-green-500 transition duration-300">Home</a>
+            </li>
+            <li class="mr-10">
+                <a href="aboutme.html" class="no-underline hover:underline font-bold text-green-500 transition duration-300">About</a>
+            </li>
+            <li class="mr-10">
+                <a href="education.html" class="no-underline hover:underline font-bold text-green-500 transition duration-300">Education</a>
+            </li>
+            <li class="mr-10">
+                <a href="hobby.html" class="no-underline hover:underline font-bold text-green-500 transition duration-300">Hobbies</a>
+            </li>
+            <li>
+                <a href="travel.html" class="no-underline hover:underline font-bold text-green-500 transition duration-300">Travel</a>
+            </li>
+        </ul>
+    </nav>
 </header>
-<section>
-  <nav>
-    <div class="container">
-      <div class="top-half">
-        Name:Shalom Habtamu
-        <br>
-        <p> </p>
-        Age: 28
-        <br>
-        <p> </p>
-        Height: 1.68
-        <br>
-        <p> </p>
-      </div>
-      <div class="bottom-half">
-        <div class="button-container">
-          <a href="aboutme.html" class="custom-button">
-            <div>About Me</div>
-          </a>
-      
-          <a href="education.html" class="custom-button">
-            <div>Education</div>
-          </a>
-      
-          <a href="hobby.html" class="custom-button">
-            <div>Hobby</div>
-          </a>
-      
-          <a href="travel.html" class="custom-button">
-            <div>Travel</div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </nav>
-<article> </article>
-</section>
-<footer>
-  <div class="social-icons">
-      <div class="icon">
-          <img src="images/telegram.png" alt="Telegram">
-      </div>
-      <div class="telegram-username">
-          <a href="https://t.me/shalommih" target="_blank">
-              @shalommih
-          </a>
-      </div>
-      <div class="email">
-          Email: <a href="mailto:shalomhatamum@gmail.com">shalomhatamum@gmail.com</a>
+<body class="font-sans bg-gray-100 text-black flex flex-col min-h-screen items-center justify-between">
+  <div class="container flex flex-col items-center justify-between py-10">
+      <div class="profile-section flex items-center">
+          <div class="centered-profile mt-9"> 
+              <img src="images/profile4.jpg" alt="Profile Picture" class="centered-profile-picture rounded-full object-cover shadow-md">
+          </div>
+          <div class="profile-info ml-8 mt-6 text-left">
+              <p class="text-3xl font-bold mb-2">Hi there, I'm<br> SHALOM HABTAMU</p>
+              <p class="text-xl">Astronaut and Software Engineer</p>
+              <br>
+              <a href="images/cv.pdf" download="cv.pdf" class="mt-4">
+                  <button class="bg-green-500 text-white px-8 py-2 rounded-md">Download CV</button>
+              </a>
+          </div>
       </div>
   </div>
-</footer>
+</body>
+    <footer class="bg-green-900 p-2 text-gray-100 text-center w-full border-t border-gray-200">
+      <div class="flex justify-around items-center mt-2">
+          <a href="https://t.me/shalommih" target="_blank" title="Telegram">
+              <img src="images/telegram.png" alt="Telegram" class="w-7 h-7 mr-2">
+          </a>
+          <a href="shalom12" target="_blank" title="Instagram">
+              <img src="images/instagram.png" alt="Instagram" class="w-7 h-7 mr-2">
+          </a>
+          <a href="mailto:shalomhatamum@gmail.com" title="Email">
+              <img src="images/email.png" alt="Email" class="w-7 h-7">
+          </a>
+      </div>
+  </footer>
 </body>
 </html>

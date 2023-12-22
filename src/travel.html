@@ -2,67 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>travel</title>
-    
+    <title>Travel</title>
+    <link rel="stylesheet" href="dist/output.css">
 </head>
 <body>
-    <header>
-    <h2>"I love people who get excited about stars."</h2>
-</header>
-    <div class="container">
-        <div class="half">
-            <h2>International Travel</h2>
-            <div class="images">
-                <div class="image-item">
-                    <img src="images/dubai.jpg" alt="Dubai">
-                    <div class="description">
-                        <p><b>Dubai</b> with it's modern architecture, luxury shopping, and vibrant nightlife.</p>
-                    </div>
-                </div>
-                <div class="image-item">
-                    <img src="images/paris.jpg" alt="Paris">
-                    <div class="description">
-                        <p><b>Paris</b> with it's iconic landmarks like the Eiffel Towe and it's rich history.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="half">
-            <h2>Domestic Travel</h2>
-            <div class="video-section">
-                <iframe width="560" height="315" src="videos/video1.mp4"></iframe>
-                <div class="description">
-                    <p>There are plenty of places too visit in Ethiopia.</p>
-                </div>
-            </div>
-            <ul class="things-list">
-                <li><b>Axum</b><br></li>
-                <li><b>Lalibela</b><br></li>
-                <li><b>Yetiya tkl dngayoch</b><br></li>
-                <li><b>ye Harer gnb</b></li>
+    <header class="bg-green-900 p-2 text-green-500 text-center fixed top-0 w-full z-50 border-b border-gray-200">
+        <nav class="flex justify-end">
+            <ul class="flex">
+                <li class="mr-10">
+                    <a href="home.html" class="no-underline hover:underline font-bold text-green-500 transition duration-300">Home</a>
+                </li>
+                <li class="mr-10">
+                    <a href="aboutme.html" class="no-underline hover:underline font-bold text-green-500 transition duration-300">About</a>
+                </li>
+                <li class="mr-10">
+                    <a href="education.html" class="no-underline hover:underline font-bold text-green-500 transition duration-300">Education</a>
+                </li>
+                <li class="mr-10">
+                    <a href="hobby.html" class="no-underline hover:underline font-bold text-green-500 transition duration-300">Hobbies</a>
+                </li>
+                <li>
+                    <a href="travel.html" class="no-underline hover:underline font-bold text-green-500 transition duration-300">Travel</a>
+                </li>
             </ul>
+        </nav>
+    </header>
+    <body class="font-sans bg-true-gray-900 text-white flex flex-col min-h-screen items-center justify-between">
+        <div class="container mt-10 px-4">
+          <div class="split--container flex">
+            <div class="international w-1/2">
+              <h2 class="text-2xl mb-4">International Travels</h2>
+              <div class="travel--images flex space-x-4">
+                <div class="travel--images__item flex flex-col items-center justify-center bg-green-500 p-4 rounded">
+                  <p class="text-white font-bold mb-2">Dubai</p>
+                  <img src="images/dubai.webp" alt="Dubai" class="w-4/5 h-4/5 rounded">
+                </div>
+                </div>
+            </div>
+            <div class="domestic w-1/2">
+              <h2 class="text-2xl mb-4">Domestic Travels</h2>
+              <div class="travel--images flex space-x-4">
+                <div class="travel--images__item flex flex-col items-center justify-center bg-green-500 p-4 rounded">
+                  <p class="text-white font-bold mb-2">Sof-Omar caves, Ethiopia</p>
+                  <img src="images/sofomar.jpg" alt="Sof-Omar caves" class="w-4/5 h-4/5 rounded">
+                </div>
+              </div>
+                    <p class="text-black mt-4 mb-4">I have visited a lot of historical and amazing places in Ethiopia. Click the button if you want to see Ethiopia travel guides.</p>
+              <a href="https://youtu.be/HwgnhdZBI-M?feature=shared" target="_blank" class="text-center">
+                <button class="bg-green-500 text-white px-8 py-2 rounded hover:bg-green-700">Watch Video</button>
+              </a>
+            </div>
+          </div>
         </div>
+        <script src="js/index.js"></script>
+<footer class="bg-green-900 p-2 text-gray-100 text-center w-full border-t border-gray-200">
+    <div class="flex justify-around items-center mt-2">
+        <a href="https://t.me/shalommih" target="_blank" title="Telegram">
+            <img src="images/telegram.png" alt="Telegram" class="w-7 h-7 mr-2">
+        </a>
+        <a href="shalom12" target="_blank" title="Instagram">
+            <img src="images/instagram.png" alt="Instagram" class="w-7 h-7 mr-2">
+        </a>
+        <a href="mailto:shalomhatamum@gmail.com" title="Email">
+            <img src="images/email.png" alt="Email" class="w-7 h-7">
+        </a>
     </div>
-<footer>
-        <div class="social-icons">
-            <div class="icon">
-                <img src="images/telegram.png" alt="Telegram">
-            </div>
-            <div class="telegram-username">
-                <a href="https://t.me/shalommih" target="_blank">
-                    @shalommih
-                </a>
-            </div>
-            <div class="email">
-                Email: <a href="mailto:shalomhatamum@gmail.com">shalomhatamum@gmail.com</a>
-            </div>
-        </div>
-</footer>    
+</footer>
 </body>
-</html> 
-    
- 
-  
-    
-       
-    
+</html>
