@@ -1,65 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>portfolio</title>
-  <meta charset="utf-8">
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="js/bootstrap.bundle.js">
 </head>
-<body>
-<header>
-  <h2>"I love people who get excited about stars."</h2>
-</header>
-<section>
-  <nav>
-    <div class="container">
-      <div class="top-half">
-        Name:Shalom Habtamu
-        <br>
-        <p> </p>
-        Age: 28
-        <br>
-        <p> </p>
-        Height: 1.68
-        <br>
-        <p> </p>
+<body class="bg-light-subtle text-black">
+  <header class="bg-dark text-center py-2 fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-4" href="#">
+          <img src="images/logo.png" alt="Logo" height="40">
+        </a>
+        <ul class="navbar-nav ms-auto mb-0">
+          <li class="nav-item me-5"><a class="nav-link text-primary text-decoration-none" href="home.html">Home</a></li>
+          <li class="nav-item me-5"><a class="nav-link text-primary text-decoration-none" href="about.html">About</a></li>
+          <li class="nav-item me-5"><a class="nav-link text-primary text-decoration-none" href="education.html">Education</a></li>
+          <li class="nav-item me-5"><a class="nav-link text-primary text-decoration-none" href="hobby.html">Hobbies</a></li>
+          <li class="nav-item"><a class="nav-link text-primary text-decoration-none" href="travel.html">Travel</a></li>
+        </ul>
       </div>
-      <div class="bottom-half">
-        <div class="button-container">
-          <a href="aboutme.html" class="custom-button">
-            <div>About Me</div>
+    </nav>
+  </header>
+  <div class="container d-flex flex-column align-items-center mt-5 pt-4">
+    <div class="profile-section d-flex flex-md-row flex-column justify-content-md-center justify-content-center align-items-center">
+      <div class="centered-profile d-flex align-items-center justify-content-center mt-5">
+        <img src="images/pp.jpg" alt="Profile Picture" class="rounded-circle max-w-300">
+      </div>
+      <div class="profile-info text-center text-md-start ml-md-7 mt-10 mt-md-0">
+        <p class="fw-semibold fs-4">
+          Hi there, I'm<br>
+          <span class="text-primary">SHALOM HABTAMU</span>
+        </p>
+        <p class="fs-5">
+          A passionate software engineer with a love for crafting elegant solutions to complex problems. Welcome to my digital home, where I showcase the exciting journey of my coding adventures.
+          I specialize in Software Engineering, and I'm dedicated to building innovative software solutions that make a real impact. From web applications to mobile development, I thrive on turning ideas into robust, user-friendly experiences.
+        </p>
+        <br>
+        <div class="d-flex justify-content-center justify-content-md-start">
+          <div id="downloadContainer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-dark text-center py-4 fixed-bottom">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col">
+          <a href="https://t.me/shalommih" target="_blank" title="Telegram" class="text-white">
+            <img src="images/telegram2.png" alt="Telegram" class="img-fluid" style="width: 28px; height: 28px;">
           </a>
-      
-          <a href="education.html" class="custom-button">
-            <div>Education</div>
+        </div>
+        <div class="col">
+          <a href="shalom12" target="_blank" title="Instagram" class="text-white">
+            <img src="images/instagram2.png" alt="Instagram" class="img-fluid" style="width: 28px; height: 28px;">
           </a>
-      
-          <a href="hobby.html" class="custom-button">
-            <div>Hobby</div>
-          </a>
-      
-          <a href="travel.html" class="custom-button">
-            <div>Travel</div>
+        </div>
+        <div class="col">
+          <a href="mailto:shalomhatamum@gmail.com" title="Email" class="text-white">
+            <img src="images/email2.png" alt="Email" class="img-fluid" style="width: 28px; height: 28px;">
           </a>
         </div>
       </div>
     </div>
-  </nav>
-<article> </article>
-</section>
-<footer>
-  <div class="social-icons">
-      <div class="icon">
-          <img src="images/telegram.png" alt="Telegram">
-      </div>
-      <div class="telegram-username">
-          <a href="https://t.me/shalommih" target="_blank">
-              @shalommih
-          </a>
-      </div>
-      <div class="email">
-          Email: <a href="mailto:shalomhatamum@gmail.com">shalomhatamum@gmail.com</a>
-      </div>
-  </div>
-</footer>
+  </footer>
+  <script src="js/index.js"></script>
 </body>
 </html>

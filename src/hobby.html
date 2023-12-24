@@ -2,92 +2,119 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hobby</title>
-    
-</head> 
-   <header>
-    <h2>"I love people who get excited about stars."</h2>
-   </header>
-<body>
-    <div class="container">
-        <div class="upper-section">
-            <h2>HOBBIES</h2>
-            <div class="image-container">
-                <div class="image-group">
-                    <img src="images/book.jpg" alt="Books">
-                    <img src="images/stargazing1.webp" alt="Stargazing">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="js/bootstrap.bundle.js">
+</head>
+<header class="bg-dark text-center py-2 fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-4" href="#">
+                <img src="images/logo.png" alt="Logo" height="40">
+            </a>
+            <ul class="navbar-nav ms-auto mb-0">
+                <li class="nav-item me-5"><a class="nav-link text-primary text-decoration-none" href="home.html">Home</a></li>
+                <li class="nav-item me-5"><a class="nav-link text-primary text-decoration-none" href="about.html">About</a></li>
+                <li class="nav-item me-5"><a class="nav-link text-primary text-decoration-none" href="education.html">Education</a></li>
+                <li class="nav-item me-5"><a class="nav-link text-primary text-decoration-none" href="hobby.html">Hobbies</a></li>
+                <li class="nav-item"><a class="nav-link text-primary text-decoration-none" href="travel.html">Travel</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="container mt-5">
+    <div class="row mt-5">
+        <h2 class="mt-5">HOBBIES</h2>
+        <div class="col-md-6">
+            <div class="hobby--image">
+                <div class="hobby--image__group">
+                    <img src="images/book1.jpg" alt="Books" class="img-fluid">
+                    <img src="images/stargazing2.webp" alt="Stargazing" class="img-fluid">
                 </div>
-                <div class="image-group">
-                    <img src="images/stargazing.jpg" alt="Stargazing">
-                    <img src="images/music1.jpg" alt="Music">
+                <div class="hobby--image__group">
+                    <img src="images/pet.jpg" alt="Stargazing" class="img-fluid">
+                    <img src="images/music1.jpg" alt="Music" class="img-fluid">
+                </div>
+                <div class="raising--animals mt-5">
+                    <h2 class="mb-4">Raising pets</h2>
+                    <p>My cat Mylo</p>
+                 <div class="embed-responsive embed-responsive-16by9">
+                     <video class="embed-responsive-item mb-4" controls>
+                     <source src="images/loli.mp4" type="video/mp4">
+                     </video>
+                 </div>
                 </div>
             </div>
         </div>
-        
-        <div class="bottom-section">
-            <div class="column">
-                <h3>Books</h3>
-                <table>
-                    <tr><td>Title</td><td>By</td></tr>
-                    <tr><td>Cosmos</td><td>Carl Sagan</td></tr>
-                    <tr><td>The Elegant Universe</td><td>Brian Green</td></tr>
-                    <tr><td>Atomic Habits</td><td>James Clear</td></tr>
-                    <tr><td>The Power Of Your Subconcious Mind</td><td>Dr. Joseph Murphy</td></tr>
-                    <tr><td>Man's Search for Meaning</td><td>Victor E.Frankl</td></tr>
-                    <tr><td>Andromeda</td><td>Dr. Rodas Tadesse, Dr.Getnet Feleke</td></tr>
-                </table>
-            </div>
-
-            <div class="column">
-                <h3>Stargazing</h3>
-                <ul>
-                    <li>Constellations</li>
-                    <li>Planets</li>
-                    <li>Moon Phases</li>
-                    <li>Auroras</li>
-                    <li>Super Moons</li>
-                    <li>Solar and Lunar Eclipses</li>
-                    <li>ISS passes</li>
-                  
-                </ul>
-            </div>
-
-            <div class="column">
-                <h3>Music</h3>
-                <ul>
-                    <li>Way Maker by Sinach</li>
-                    <li>Oceans by Hillsong</li>
-                    <li>
-                        <p>Something about the name Jesus by Kiki Franklin</p>
-                        <audio controls>
-                            <source src="audios/audio1.m4a" type="audio/mp4">
-                        </audio>
-                    </li>
-                    <li>
-                        <p>10,000 Reasons by Matt Redman</p>
-                        <audio controls>
-                            <source src="audios/audio2.m4a" type="audio/mp4">
-                            
-                        </audio>
-                    </li>
-                </ul>
+        <div class="col-md-6">
+            <div class="hobby--bottom__section">
+                <div class="hobby--column">
+                    <h3>Books</h3>
+                    <table class="table table-dark">
+                        <tr><td>Title</td><td>By</td></tr>
+                        <tr><td>Cosmos</td><td>Carl Sagan</td></tr>
+                        <tr><td>The Elegant Universe</td><td>Brian Green</td></tr>
+                        <tr><td>Atomic Habits</td><td>James Clear</td></tr>
+                        <tr><td>The Power Of Your Subconscious Mind</td><td>Dr. Joseph Murphy</td></tr>
+                        <tr><td>Man's Search for Meaning</td><td>Victor E.Frankl</td></tr>
+                        <tr><td>Andromeda</td><td>Dr. Rodas Tadesse, Dr. Getnet Feleke</td></tr>
+                    </table>
+                </div>
+                <div class="hobby--column">
+                    <h3>Stargazing</h3>
+                    <ul>
+                        <li>Constellations</li>
+                        <li>Planets</li>
+                        <li>Moon Phases</li>
+                        <li>Auroras</li>
+                        <li>Super Moons</li>
+                        <li>Solar and Lunar Eclipses</li>
+                        <li>ISS passes</li>
+                    </ul>
+                </div>
+                <div class="hobby--column">
+                    <h3>Music</h3>
+                    <ul>
+                        <li>Way Maker by Sinach</li>
+                        <li>Oceans by Hillsong</li>
+                        <li>
+                            <p>Something about the name Jesus by Kiki Franklin</p>
+                            <audio controls>
+                                <source src="images/audio1.m4a" type="audio/mp4">
+                            </audio>
+                        </li>
+                        <li>
+                            <p>10,000 Reasons by Matt Redman</p>
+                            <audio controls>
+                                <source src="images/audio2.m4a" type="audio/mp4">
+                            </audio>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-<footer>
-        <div class="social-icons">
-            <div class="icon">
-              <img src="images/telegram.png" alt="Telegram">
-            </div>
-            <div class="telegram-username">
-                <a href="https://t.me/shalommih" target="_blank">
-                @shalommih
-                </a>
-            </div>
-            <div class="email">
-                Email: <a href="mailto:shalomhatamum@gmail.com">shalomhatamum@gmail.com</a>
+</div>
+    <footer class="bg-dark text-center py-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <a href="https://t.me/shalommih" target="_blank" title="Telegram" class="text-white">
+                        <img src="images/telegram2.png" alt="Telegram" class="img-fluid" style="width: 28px; height: 28px;">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="shalom12" target="_blank" title="Instagram" class="text-white">
+                        <img src="images/instagram2.png" alt="Instagram" class="img-fluid" style="width: 28px; height: 28px;">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="mailto:shalomhatamum@gmail.com" title="Email" class="text-white">
+                        <img src="images/email2.png" alt="Email" class="img-fluid" style="width: 28px; height: 28px;">
+                    </a>
+                </div>
             </div>
         </div>
-</footer>    
-</body>
+    </footer>
 </html>
